@@ -338,17 +338,22 @@ body {
   align-items: center;
 }
 
+.footer__content-text {
+  margin-right: 5%;
+}
+
 .footer__content-contacts {
   display: flex;
   gap: 20px;
-  align-items: center;
+  align-items: end;
+  justify-content: end;
+  flex-direction: column;
 }
 
-.footer img {
-  height: 50px;
-  width: auto;
-  border-radius: 50px;
-  background-color: white;
+.footer__contact {
+  cursor: auto;
+  overflow-wrap: anywhere;
+  hyphens: auto;
 }
 
 /* =====================MEDIA====================== */
@@ -357,6 +362,7 @@ body {
 @media (max-width: 764px) {
   .header__logo {
     margin: 0;
+    margin-right: 30px;
     font-size: 28px;
     font-weight: 600;
     cursor: default;
@@ -391,7 +397,8 @@ body {
 @media (max-width: 525px) {
   .header__logo {
     margin: 0;
-    font-size: 20px;
+    margin-right: 30px;
+    font-size: 16px;
     font-weight: 500;
     cursor: default;
   }
@@ -404,5 +411,17 @@ body {
   .header__nav {
     display: flex;
     gap: 10px;
+  }
+
+  .header__nav-link {
+    font-size: 12px;
+    font-weight: 500;
+    transition: all ease 200ms;
+  }
+  .footer__contact {
+    cursor: auto;
+    overflow-wrap: anywhere;
+    hyphens: auto;
+    font-size: 12px;
   }
 }

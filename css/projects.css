@@ -29,7 +29,13 @@ body {
 }
 
 .wrap {
-  background: #0d1117;
+  background: linear-gradient(
+    180deg,
+    #262626 0%,
+    #34225d 10%,
+    #74088a 40%,
+    #34225d 90%
+  );
 }
 
 .container {

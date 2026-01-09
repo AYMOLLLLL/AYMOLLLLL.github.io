@@ -36,9 +36,9 @@ body {
 .wrap {
   background: linear-gradient(
     180deg,
-    #161616 0%,
+    #161616f9 0%,
     #3c3c3c 950px,
-    #161616 1200px
+    #161616f9 1200px
   );
 }
 
@@ -396,7 +396,7 @@ body {
 
   .main__projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 200px);
+    grid-template-columns: repeat(auto-fit, 250px);
     gap: 30px;
     justify-content: space-around;
   }

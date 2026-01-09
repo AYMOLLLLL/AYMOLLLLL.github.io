@@ -38,6 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
   function openAccordionItem(item, button, content) {
     item.classList.add("active");
     button.setAttribute("aria-expanded", "true");
+    button.classList.add("main__about-accordion-btn--active");
     content.style.maxHeight = content.scrollHeight + "px";
   }
 
@@ -45,6 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
   function closeAccordionItem(item, button, content) {
     item.classList.remove("active");
     button.setAttribute("aria-expanded", "false");
+    button.classList.remove("main__about-accordion-btn--active");
     content.style.maxHeight = null;
   }
 

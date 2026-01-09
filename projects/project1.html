@@ -8,6 +8,10 @@
       href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="/css/projects.css" />
   </head>
   <body>
@@ -24,12 +28,77 @@
         <main class="main">
           <div class="main__hero">
             <h1 class="hero__title">Мой сайт-портфолио</h1>
-            <div class="hero__img-block">
-              <img
-                src="/images/main-projects/mysite.PNG"
-                alt="developer"
-                class="hero__img"
-              />
+            <div class="swiper main-slider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img
+                    src="/images/projects/project1/slider-img1.PNG"
+                    alt="Слайд 1"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="/images/projects/project1/slider-img2.PNG"
+                    alt="Слайд 2"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="/images/projects/project1/slider-img3.PNG"
+                    alt="Слайд 3"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="/images/projects/project1/slider-img4.PNG"
+                    alt="Слайд 4"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="/images/projects/project1/slider-img5.PNG"
+                    alt="Слайд 5"
+                  />
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+            <div class="swiper thumbs-slider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img
+                    src="/images/projects/project1/slider-img1.PNG"
+                    alt="Миниатюра 1"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="/images/projects/project1/slider-img2.PNG"
+                    alt="Миниатюра 2"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="/images/projects/project1/slider-img3.PNG"
+                    alt="Миниатюра 3"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="/images/projects/project1/slider-img4.PNG"
+                    alt="Миниатюра 4"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="/images/projects/project1/slider-img5.PNG"
+                    alt="Миниатюра 5"
+                  />
+                </div>
+              </div>
             </div>
             <div class="hero__description">
               <h2 class="hero__description-title">Описание</h2>
@@ -128,5 +197,7 @@
         </footer>
       </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="/js/slider.js"></script>
   </body>
 </html>
